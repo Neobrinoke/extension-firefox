@@ -1,0 +1,25 @@
+{
+	"description": "",
+	"manifest_version": 2,
+	"name": "Extension_Firefox",
+	"version": "1.0",
+	"homepage_url": "https://github.com/Bidis93/Extension-Firefox",
+	"icons": {
+		"48": "icons/beasts-48.png"
+	},
+
+	"permissions": [
+		"activeTab"
+	],
+
+	"browser_action": {
+		"default_icon": "icons/beasts-32.png",
+		"theme_icons": [{
+			"light": "icons/beasts-32-light.png",
+			"dark": "icons/beasts-32.png",
+			"size": 32
+		}],
+		"default_title": "Extension_Firefox",
+		"default_popup": "popup/popup_extension_firefox.html"
+	}
+}
